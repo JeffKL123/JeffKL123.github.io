@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: auto;
+    background-color: lightgray;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+}
