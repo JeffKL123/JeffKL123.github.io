@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+
 <html>
 
 <head>
@@ -12,28 +9,37 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav>
-        <div class="navdiv">
-            <a href="index.html">Mi Página Web</a>
-        </div>
-        <div class="navdiv">
-            <ul class="menu">
-                <li>
-                    <a href="index.html">HOME</a>
-                </li>
-                <li>
-                    <a href="about.html">ABOUT</a>
-                </li>
-                <li>
-                    <a href="contact.html">CONTACT</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="media/unclogot.png" alt="" width="30" height="32" class="d-inline-block align-text-top">
+                <strong>MI WEBPAGE</strong>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menuR" aria-controls="menuR" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="menuR">
+                <div class="navbar-nav mx-auto text-center">
+                    <a class="nav-item nav-link px-3 active" aria-current="page" href="index.html">HOME</a>
+                    <a class="nav-item nav-link px-3" href="about.html">ABOUT</a>
+                    <a class="nav-item nav-link px-3" href="contact.html">CONTACT</a>
+                </div>
+                <div class="d-flex flex-row justify-content-evenly">
+                    <a href="#" class="btn px-3 mx-2 btn-outline-primary">F</a>
+                    <a href="#" class="btn px-3 mx-2 btn-outline-danger">Y</a>
+                    <a href="#" class="btn px-3 mx-2 btn-outline-info">T</a>
+                    <a href="#" class="btn px-3 mx-2 btn-outline-warning">I</a>
+                </div>
+            </div>
         </div>
-
     </nav>
 
     <div>
@@ -58,7 +64,10 @@
         </div>
     </div>
 
-    <script src="" async defer></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
