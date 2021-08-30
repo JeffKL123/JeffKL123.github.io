@@ -1,6 +1,10 @@
 .background{
-    background-image: url('../media/backgroundforest.jpg');
-    height: 600px;
+    height: 92.3vh;
+}
+
+.fondo{
+    background-image: url('../media/bslider1.jpg');
+    height: 92.3vh;
     background-position: center;
     background-size: cover;
 }
