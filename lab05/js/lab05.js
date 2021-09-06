@@ -98,4 +98,64 @@ function extraerTexto() {
     document.getElementById("mes").innerHTML = `${mesletra}`;
 }
 
+let contador = 0;
+
+function cambiarcolor() {
+    let a1 = document.getElementById("pb1")
+    let a2 = document.getElementById("pb2")
+    let a3 = document.getElementById("pb3")
+    let a4 = document.getElementById("pb4")
+    let a5 = document.getElementById("pb5")
+
+    let co = document.getElementById("colorear")
+    let r1 = document.getElementById("pr1")
+    let r2 = document.getElementById("pr2")
+    let r3 = document.getElementById("pr3")
+
+    if(contador == 0){
+        a1.classList.remove('azul')
+        a1.classList.add('rojo')
+        a2.classList.remove('azul')
+        a2.classList.add('rojo')
+        a3.classList.remove('azul')
+        a3.classList.add('rojo')
+        a4.classList.remove('azul')
+        a4.classList.add('rojo')
+        a5.classList.remove('azul')
+        a5.classList.add('rojo')
+
+        r1.classList.remove('rojo')
+        r1.classList.add('azul')
+        r2.classList.remove('rojo')
+        r2.classList.add('azul')
+        r3.classList.remove('rojo')
+        r3.classList.add('azul')
+        co.classList.remove('rojo')
+        co.classList.add('azul')
+
+        contador=1
+    }else{
+        a1.classList.remove('rojo')
+        a1.classList.add('azul')
+        a2.classList.remove('rojo')
+        a2.classList.add('azul')
+        a3.classList.remove('rojo')
+        a3.classList.add('azul')
+        a4.classList.remove('rojo')
+        a4.classList.add('azul')
+        a5.classList.remove('rojo')
+        a5.classList.add('azul')
+
+        r1.classList.remove('azul')
+        r1.classList.add('rojo')
+        r2.classList.remove('azul')
+        r2.classList.add('rojo')
+        r3.classList.remove('azul')
+        r3.classList.add('rojo')
+        co.classList.remove('azul')
+        co.classList.add('rojo')
+
+        contador=0;
+    }
+}
 
