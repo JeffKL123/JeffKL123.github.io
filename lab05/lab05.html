@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/lab05.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/94fc84b92d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top pt-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="../media/unclogot.png" alt="" width="30" height="32" class="d-inline-block align-text-top">
+                <strong>MI WEBPAGE</strong>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menuR" aria-controls="menuR" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuR">
+                <div class="navbar-nav mx-auto text-center">
+                    <a class="nav-item nav-link px-3" aria-current="page" href="index.html">INICIO</a>
+                    <a class="nav-item nav-link px-3 active" href="lab05/lab05.html">LAB 05</a>
+                </div>
+                <div class="d-flex flex-row justify-content-evenly">
+                    <a href="#" class="btn px-2 mx-2 btn-outline-primary"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="#" class="btn px-2 mx-2 btn-outline-danger"><i class="fab fa-youtube fa-2x"></i></a>
+                    <a href="#" class="btn px-2 mx-2 btn-outline-primary"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="#" class="btn px-32 mx-2 btn-outline-warning"><i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="contenedor">
+        <h4>LAB 05: TALLER DE JAVASCRIPT</h4>
+        <div id="cont1">
+            <div class="cajaflex">
+                <p class="azul">Appellidos y nombres:</p>
+                <input id="nomap" type="text" placeholder="Ingrese apellidos y nombres">
+                <button id="extraer">Extraer</button>
+                <button id="colorear" class="rojo">Colorear</button>
+            </div>
+            <div class="cajaflex">
+                <p class="azul">Fecha de nacimiento: </p>
+                <input id="fechanac" type="text" placeholder="Ingrese fecha de nacimiento">
+            </div>
+        </div>
+        
+        <div id="cont2">
+            <div class="cajaflex">
+                <p class="azul caja2">Apellido paterno: </p>
+                <p id="appa" class="llenado"></p>
+                <p class="rojo caja2">Longitud del apellido: </p>
+                <p id="longap" class="llenado"></p>
+
+            </div>
+            <div class="cajaflex caja2">
+                <p class="azul caja2">Apellido materno: </p>
+                <p id="apma" class="llenado"></p>
+                <p class="rojo caja2">Edad: </p>
+                <p id="edad" class="llenado"></p>
+            </div>
+            <div class="cajaflex caja2">
+                <p class="azul caja2">Nombres: </p>
+                <p id="nom" class="llenado"></p>
+                <p class="rojo caja2">Mes en letras: </p>
+                <p id="mes" class="llenado"></p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="js/lab05.js" async defer></script>
+</body>
+
+</html>

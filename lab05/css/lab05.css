@@ -1,0 +1,69 @@
+#contenedor {
+  background-color: rgba(199, 244, 231, 255);
+}
+
+#contenedor h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+#cont1 {
+  margin-left: 250px;
+}
+.cajaflex {
+  display: flex;
+  align-items: center;
+}
+
+.cajaflex button {
+  color: white;
+  border-radius: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.cajaflex p {
+  margin-bottom: 0;
+  width: 175px;
+  color: white;
+}
+
+.cajaflex input {
+  width: 250px;
+}
+
+#extraer {
+  background-color: orange;
+  margin-left: 30px;
+  margin-right: 10px;
+  border: 2px solid white;
+}
+
+.rojo {
+  background-color: rgba(183, 73, 25, 255);
+  border: 2px solid #9b3c13;
+}
+
+.azul {
+  background-color: rgba(29, 111, 169, 255);
+  border: 2px solid rgba(25, 99, 152, 255);
+}
+
+#cont2 {
+  margin-left: 270px;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.caja2 {
+  margin-top: 2px;
+}
+
+.llenado {
+  margin-right: 30px;
+  background-color: white;
+  border: 1px solid black;
+  height: 29px;
+}
